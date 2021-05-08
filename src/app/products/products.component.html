@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row my-4">
+    <div class="col-md-4" *ngFor="let product of products; let i = index;">
+      <a [routerLink]="['/product', slugify(product.name), i + 1]"><img [src]="product.image_jpeg" [alt]="product.name" class="img-fluid"></a>
+      <h1 class="text-center"><a [routerLink]="['/product', slugify(product.name), i + 1]" class="text-decoration-none">{{product.name}}</a></h1>
+      <h4 class="text-center" *ngFor="let quantity of product.quantity">{{quantity.amount}} - {{quantity.price}}</h4>
+
+<!--    <div class="col-md-8 d-flex flex-column justify-content-center">-->
+<!--      <h4>Description</h4>-->
+<!--      <p>{{product.description}}</p>-->
+<!--      <h4>Specification</h4>-->
+<!--      <ul>-->
+<!--        <li *ngFor="let spec of product.specification">{{spec.type}} {{spec.value}}</li>-->
+<!--      </ul>-->
+<!--    </div>-->
+    </div>
+  </div>
+</div>

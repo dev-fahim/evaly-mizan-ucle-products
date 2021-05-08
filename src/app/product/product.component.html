@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <img [src]="product.image_jpeg" [alt]="product.name" class="img-fluid">
+      <h1 class="text-center">{{product.name}}</h1>
+      <h4 class="text-center" *ngFor="let quantity of product.quantity">{{quantity.amount}} - {{quantity.price}}</h4>
+    </div>
+    <div class="col-md-8 d-flex flex-column justify-content-center">
+      <h4>Description</h4>
+      <p>{{product.description}}</p>
+      <h4>Specification</h4>
+      <ul>
+        <li *ngFor="let spec of product.specification">{{spec.type}} {{spec.value}}</li>
+      </ul>
+      <div class="col-md-12 my-5">
+        <a routerLink="/" class="btn btn-lg btn-secondary">Go Back</a>
+      </div>
+    </div>
+  </div>
+</div>
