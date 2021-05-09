@@ -155,7 +155,22 @@ export const PRODUCTS: Product[] = [
       '- Rejuvenates skin\n' +
       '- Makes skin soft and supple',
     specification: [
-      {type: 'Brand: ', value: 'Ailke'},
+      {type: 'Brand: ', value: 'Dr. Rashel'},
+      {type: 'Category: ', value: 'Cream'},
+      {type: 'Product Type: ', value: 'Serum'},
+      {type: '', value: 'Available at shops'},
+    ]
+  },
+  {
+    name: 'Dr. Rashel Vitamin C Brightening and Anti-Aging Face Cream',
+    image_jpeg: 'assets/images/DR-RASHEL-Vitamin-C-Face-Deep-Moisturizing-555x555-1.jpg',
+    image_png: 'assets/images/DR-RASHEL-Vitamin-C-Face-Deep-Moisturizing-555x555-1.jpg',
+    quantity: [
+      {amount: '50 gram', price: 'TK 800'},
+    ],
+    description: 'This cream is for Whitening, Moisturizing and Anti Wrinkle functions. It is Suitable for All Skin Types.',
+    specification: [
+      {type: 'Brand: ', value: 'Dr. Rashel'},
       {type: 'Category: ', value: 'Cream'},
       {type: 'Product Type: ', value: 'Serum'},
       {type: '', value: 'Available at shops'},
