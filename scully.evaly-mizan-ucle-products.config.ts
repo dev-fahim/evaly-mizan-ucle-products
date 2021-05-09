@@ -166,7 +166,7 @@ export const PRODUCTS: Product[] = [
     image_jpeg: 'assets/images/DR-RASHEL-Vitamin-C-Face-Deep-Moisturizing-555x555-1.jpg',
     image_png: 'assets/images/DR-RASHEL-Vitamin-C-Face-Deep-Moisturizing-555x555-1.jpg',
     quantity: [
-      {amount: '50 gram', price: 'TK 800'},
+      {amount: '50 gram', price: 'TK 1099'},
     ],
     description: 'This cream is for Whitening, Moisturizing and Anti Wrinkle functions. It is Suitable for All Skin Types.',
     specification: [
@@ -177,13 +177,13 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
-    name: 'Episoft Hair Removal Inhibitor Serum',
+    name: 'Episoft Hair Inhibitor Serum',
     image_jpeg: 'assets/images/fb8ae4e17a34-29.jpg',
     image_png: 'assets/images/fb8ae4e17a34-29.jpg',
     quantity: [
-      {amount: '20 gram', price: 'TK 700'},
+      {amount: '20 gram', price: 'TK 650'},
     ],
-    description: '',
+    description: 'Episoft Hair Inhibitor Serum',
     specification: [
       {type: 'Brand: ', value: 'Episoft'},
       {type: 'Category: ', value: 'Cream'},
@@ -196,7 +196,7 @@ export const PRODUCTS: Product[] = [
     image_jpeg: 'assets/images/1-4.jpg',
     image_png: 'assets/images/1-4.jpg',
     quantity: [
-      {amount: '12 gram', price: 'TK 500'},
+      {amount: '12 gram', price: 'TK 290'},
     ],
     description: 'Super moisturizing effect, this lip scrub cream is rich in sodium hyaluronate, which can deeply penetrate the skin and tightly lock the moisture of the skin. It has a good nourishing effect. Rich in collagen, the propolis lip exfoliating gel can provide enough collagen for the lips and deeply nourish the skin. Rich in propolis , can remove the aging skin tissue, make the skin of the lips more full and more elastic. ',
     specification: [
